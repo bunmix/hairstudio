@@ -81,6 +81,8 @@ a{
 
 /* media quaries */
 
+
+
 @media screen and ( max-width:900px){
     .navigation{
         flex-direction: column;
@@ -89,6 +91,11 @@ a{
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
-        color: pink;
+    }
+    .home{
+        margin-bottom: 0px;
+    }
+    .services{
+        flex-direction: column;
     }
 }
